@@ -1,0 +1,70 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.side-header{
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a{
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-make a{
+  padding: 14px;
+  border: 1px solid lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+  
+.side-main{
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.rooms{
+  margin: 20px 0 40px 0;
+}
+
+.rooms a{
+  color: white;
+  text-decoration: none;
+}
+
+.main-chat{
+  width: calc(100vh - 300px);
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.main-header{
+  height: 100px;
+  padding: 0 40px;
+}
+
+.chat{
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+
+.chat-bottom{
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
